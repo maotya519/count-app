@@ -1,0 +1,88 @@
+body {
+    background: #64B5F6;
+    margin: 0;
+    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+}
+.count-title {
+    background: #03A9F4;
+    margin: 0;
+    text-align: center;
+    font-size: 1.6em;
+    line-height: 2.4em;
+    box-shadow: 0 4px 4px rgb(3, 129, 187);
+    color: #ddd;
+    letter-spacing: 0.2em;
+}
+.material-icons {
+    color: #ddd;
+}
+.question {
+    position: absolute;
+    right: 8%;
+    top: 2%;
+    font-size: 42px;
+}
+.head-container {
+    width: 90%;
+    height: 200px;
+    margin: 20% auto 0 auto;
+}
+.result {
+    text-align: center;
+    font-size: 6em;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    }
+
+    .modal-content{
+    background-color: #ddd;
+    color: #333;
+    width: 90%;
+    height: 400px;
+    padding: 10px 0 0 0;
+    border-radius: 5px;
+    margin: 40% auto;
+    }
+.material-icons.large-size {
+    font-size: 6em;
+    line-height: 120px;
+}
+.btn-container {
+    display: flex;
+    width: 90%;
+    margin: 40% auto 0 auto;
+}
+.btn-area {
+    border-radius: 50%;
+    width: 30%;
+    height: 120px;
+    text-align: center;
+
+}
+.disadd-container {
+    background: rgb(63, 114, 155) ;
+    box-shadow: 0 4px 4px rgb(43, 77, 105);
+    margin: 0 0 0 14%;
+}
+.btn-area:active {
+    position: relative;
+    top: 4px;
+}
+.add-container {
+    background: #FF80AB;
+    box-shadow: 0 4px 4px rgb(170, 86, 114);
+    margin: 0 0 0 10%;
+}
+.modal-title {
+    text-align: center;
+    font-size: 2em;
+}
